@@ -7,3 +7,16 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
+
+
+/* ESERCIZIO 2 */
+
+.ex-2-square {
+    transition: all 3s ease;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+

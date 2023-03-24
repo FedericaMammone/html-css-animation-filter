@@ -89,3 +89,12 @@
  
 /* ESERCIZIO 8 */
 
+
+.well .ex-8-img {
+    transition: all 2s ease;
+}
+
+.well:hover .ex-8-img {
+    filter: sepia(0.5) grayscale(.8);
+    border-radius: 20px;
+}

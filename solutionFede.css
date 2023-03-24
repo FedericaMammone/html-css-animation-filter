@@ -63,3 +63,14 @@
     height: 50px;
     margin: 20px;
 }
+
+
+/* ESERCIZIO 6 */
+
+.well img {
+    transition: all 0s ease;
+}
+
+.well:hover img {
+    filter: grayscale(1);
+}

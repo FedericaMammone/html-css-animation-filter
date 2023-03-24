@@ -78,6 +78,11 @@
 
 /* ESERCIZIO 7 */
 
-.well img {
-    transition: all 0s ease;
+.well .ex-7-img {
+    transition: all 2s ease;
+}
+
+.well:hover .ex-7-img {
+    filter: sepia(1) brightness(1);
+    
 }

@@ -110,6 +110,7 @@
     filter: sepia(0.5) grayscale(.8);
     border-radius: 20px;
     margin: 5px 10px;
+    width: 600px;
    
     
 }
@@ -127,5 +128,20 @@
     }
     to {
         transform: rotate(0deg);
+    }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon {
+    animation: move 1s ease-in ;
+}
+
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(315deg);
     }
 }
